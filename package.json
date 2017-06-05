@@ -32,16 +32,20 @@
     "babel-preset-stage-0": "^6.5.0",
     "babel-transform-in-browser": "^6.4.6",
     "del": "^2.2.0",
+    "draft-js": ">0.8.1",
     "es6-shim": "^0.35.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
+    "immutable": "^3.7.6",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
     "run-sequence": "^1.1.5",
     "webpack-stream": "^3.1.0"
   },
-  "dependencies": {
-    "draft-js": "^0.8.1",
-    "immutable": "^3.7.6",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+  "peerDependencies": {
+    "draft-js": ">=0.8.1",
+    "immutable": ">=3.7.6",
+    "react": ">=0.14.7",
+    "react-dom": ">=0.14.7"
   }
 }

@@ -9,6 +9,9 @@ const buildDist = (opts) => {
     debug: opts.debug,
     externals: {
       React: 'React',
+      'immutable': 'Immutable',
+      'react': 'React',
+      'react-dom': 'ReactDOM',
       'draft-js': 'Draft'
     },
     output: {
