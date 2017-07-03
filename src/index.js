@@ -38,6 +38,11 @@ class TypeaheadEditor extends Editor {
       return null;
     }
 
+    const { getTypeaheadRange } = this.props
+    if (getTypeaheadRange) {
+      return getTypeaheadRange(selection)
+    }
+
     const range = selection.getRangeAt(0);
     let text = range.startContainer.textContent;
 
